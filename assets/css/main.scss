@@ -107,3 +107,363 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.masthead {
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 4px 18px rgba(22, 39, 64, .06);
+}
+
+.greedy-nav a {
+    border-radius: 999px;
+    padding: .45rem .7rem;
+    transition: background .18s ease, color .18s ease;
+
+    &:hover {
+        color: #143a63;
+        background: #eef5f8;
+    }
+}
+
+.author__avatar img {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.author__bio {
+    color: #506172;
+    line-height: 1.45;
+}
+
+.page__content {
+    > p:first-of-type {
+        font-size: 1.04rem;
+        line-height: 1.75;
+    }
+
+    h1 {
+        margin-top: 1.35rem;
+        color: #17324d;
+        border-bottom: 2px solid #d9e2ef;
+    }
+}
+
+.profile-highlights,
+.timeline-list,
+.team-grid,
+.award-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.profile-highlights {
+    grid-template-columns: 1fr;
+    margin: 1.35rem 0 1.8rem;
+
+    @include breakpoint($medium) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.highlight-card,
+.publication-card,
+.org-card,
+.award-item,
+.overview-card,
+.section-card {
+    border: 1px solid #d9e2ef;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #fff 0%, #f8fbfd 100%);
+    box-shadow: 0 10px 24px rgba(22, 39, 64, .07);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        border-color: #bfd0de;
+        box-shadow: 0 14px 30px rgba(22, 39, 64, .11);
+    }
+}
+
+.highlight-card {
+    padding: 1rem 1.1rem;
+    border-top: 4px solid #2f7d5c;
+
+    &:nth-child(2) {
+        border-top-color: #b9602a;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: .45rem;
+        color: #17324d;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 1.1rem;
+    }
+}
+
+.overview-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1.35rem 0 1.8rem;
+    padding: 1rem 1.1rem;
+    border-top: 4px solid #2f7d5c;
+
+    @include breakpoint($medium) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: .45rem;
+        color: #17324d;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 1.1rem;
+    }
+}
+
+.publication-card {
+    position: relative;
+    padding: 1.2rem 1.3rem 1.1rem;
+    border-left: 4px solid #224b8d;
+
+    h3 {
+        margin-top: .55rem;
+        margin-bottom: .45rem;
+        line-height: 1.35;
+    }
+
+    p {
+        margin-bottom: .45rem;
+    }
+}
+
+.pub-venue {
+    display: inline-block;
+    padding: .25rem .6rem;
+    border-radius: 999px;
+    color: #5c3516;
+    background: #f4dfbd;
+    font-size: .82rem;
+    font-weight: 700;
+}
+
+.award-list {
+    grid-template-columns: 1fr;
+}
+
+.section-card {
+    position: relative;
+    overflow: hidden;
+    padding: .2rem 1.1rem;
+}
+
+.section-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #224b8d, #2f7d5c);
+}
+
+.section-card .org-card,
+.section-card .award-item {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+
+    &:hover {
+        transform: none;
+        border-color: transparent;
+        box-shadow: none;
+    }
+}
+
+.section-card .org-card {
+    padding: .95rem 0;
+}
+
+.section-card .org-card + .org-card,
+.section-card .award-item + .award-item {
+    border-top: 1px solid #e7edf4;
+}
+
+.section-card.award-list {
+    gap: 0;
+    padding-top: .45rem;
+    padding-bottom: .45rem;
+}
+
+.section-card .award-item {
+    padding: .78rem 0;
+}
+
+.award-item {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding: .9rem 1rem;
+    border-left: 4px solid #b9602a;
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: .28rem;
+        color: #17324d;
+        line-height: 1.32;
+        font-size: 1rem;
+    }
+
+    p {
+        margin-bottom: 0;
+        color: #647285;
+        font-size: .9rem;
+    }
+}
+
+.award-item:nth-child(odd) {
+    border-left-color: #224b8d;
+}
+
+.award-year {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.65rem;
+    padding: .28rem .45rem;
+    border-radius: 6px;
+    color: #183b67;
+    background: #eaf2fb;
+    border: 1px solid #cddff2;
+    font-size: .82rem;
+    font-weight: 700;
+}
+
+.org-card {
+    display: grid;
+    grid-template-columns: 98px 1fr;
+    gap: 1.15rem;
+    align-items: center;
+    padding: 1.05rem 1.15rem;
+    border-left: 4px solid #547aa5;
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: .35rem;
+        color: #17324d;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.timeline-list .org-card:nth-child(even) {
+    border-left-color: #2f7d5c;
+}
+
+.team-card {
+    border-left-color: #224b8d;
+}
+
+.team-grid .team-card:nth-child(2) {
+    border-left-color: #b9602a;
+}
+
+.team-grid .team-card:nth-child(3) {
+    border-left-color: #2f7d5c;
+}
+
+.logo-frame {
+    display: flex;
+    width: 98px;
+    height: 98px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: transparent;
+    border: 0;
+    overflow: visible;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform: scale(.86);
+        box-shadow: none !important;
+    }
+}
+
+.logo-frame img[src$="sustech-logo.png"],
+.logo-frame img[src$="sustech-football-badge.png"] {
+    transform: scale(1.18);
+}
+
+.logo-frame img[src$="shuli-football-badge.png"] {
+    transform: scale(.72);
+}
+
+.honor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+    margin-top: .7rem;
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        padding: .24rem .55rem;
+        border-radius: 999px;
+        color: #22405f;
+        background: #eef5f8;
+        border: 1px solid #d7e6ed;
+        font-size: .82rem;
+        line-height: 1.35;
+        font-weight: 700;
+    }
+}
+
+.team-grid .team-card:nth-child(1) .honor-list span {
+    color: #183b67;
+    background: #eaf2fb;
+    border-color: #cddff2;
+}
+
+.team-grid .team-card:nth-child(2) .honor-list span {
+    color: #6a3a14;
+    background: #fff1df;
+    border-color: #efd1ad;
+}
+
+@include breakpoint(max-width $small) {
+    .org-card {
+        grid-template-columns: 72px 1fr;
+        gap: .85rem;
+        padding: .9rem;
+    }
+
+    .logo-frame {
+        width: 72px;
+        height: 72px;
+    }
+
+    .logo-frame img[src$="sustech-logo.png"],
+    .logo-frame img[src$="sustech-football-badge.png"] {
+        transform: scale(1.15);
+    }
+
+    .logo-frame img[src$="shuli-football-badge.png"] {
+        transform: scale(.68);
+    }
+}

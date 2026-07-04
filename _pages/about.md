@@ -3,56 +3,197 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# About Me
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00 and a rank of 11/152. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025 and received an A- grade.
 
+I am currently a research intern at [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/), under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+My research focuses on large language models (LLMs), with a particular interest in large reasoning models (LRMs) and LLM agents. I also hope to explore world models and embodied AI in the future.
 
-# 📝 Publications 
+I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="overview-card" markdown="1">
+<div markdown="1">
+### AI Researcher
+- Large language models, LRMs, and LLM agents
+- Model training, alignment, and evaluation
+- Future interests in world models and embodied AI
+</div>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div markdown="1">
+### Football Player
+- Captain of [Shuli College Football Team](https://shulisoccer.pages.dev/)
+- Center-back and right-back
+- Member of the SUSTech University Football Team
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<span class='anchor' id='publications'></span>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# Publications
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class="publication-card" markdown="1">
+<div class="pub-venue">Scientific Data 2025</div>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+### [COph100: A comprehensive fundus image registration dataset from infants constituting the "RIDIRP" database](https://arxiv.org/abs/2501.02800)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+Yan Hu, Mingdao Gong, Zhongxi Qiu, Jiabao Liu, **Hongli Shen**, Mingzhen Yuan, Xiaoqing Zhang, Heng Li, Hai Lu, Jiang Liu.
+
+[[arXiv]](https://arxiv.org/abs/2501.02800)
+</div>
+
+<span class='anchor' id='education'></span>
+
+# Education
+
+<div class="section-card timeline-list" markdown="1">
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/sustech-logo.png" alt="SUSTech logo"></div>
+<div markdown="1">
+### Southern University of Science and Technology
+**B.Eng. student**, 2023 - present  
+GPA: 3.89/4.00; Rank: 11/152.
+</div>
+</div>
+
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/nus-logo.webp" alt="NUS logo"></div>
+<div markdown="1">
+### NUS School of Computing Summer Workshop
+**Summer Workshop**, May 2025 - July 2025  
+Grade: A-.
+</div>
+</div>
+</div>
+
+<span class='anchor' id='research'></span>
+
+# Research Experience
+
+<div class="section-card timeline-list" markdown="1">
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/kaust-logo.png" alt="KAUST logo"></div>
+<div markdown="1">
+### KAUST PRADA Lab
+**Research Intern**, January 2026 - present  
+Advisor: [Prof. Di Wang](https://shao3wangdi.github.io/). Research direction: LLM safety and large reasoning models.
+</div>
+</div>
+
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/sustech-logo.png" alt="SUSTech logo"></div>
+<div markdown="1">
+### SUSTech iMed Lab
+**Research Intern**, August 2024 - June 2025  
+Advisor: [Prof. Jiang Liu](https://www.sustech.edu.cn/en/faculties/liujiang.html). Research direction: medical image processing.
+</div>
+</div>
+</div>
+
+<span class='anchor' id='football'></span>
+
+# Football
+
+<div class="section-card team-grid" markdown="1">
+<div class="org-card team-card" markdown="1">
+<div class="logo-frame"><img src="images/sustech-football-badge.png" alt="SUSTech University Football Team badge"></div>
+<div markdown="1">
+### SUSTech University Football Team
+**Right-back and center-back**  
+September 2024 - present.
+
+<div class="honor-list">
+  <span>2024 Shenzhen City Tournament Third Place</span>
+  <span>2025 Shenzhen City Tournament Runner-up</span>
+  <span>2026 Shenzhen Suibian Manguan Cup Runner-up</span>
+  <span>2024 Governor's Cup Round of 32</span>
+  <span>2025 Governor's Cup Round of 16</span>
+</div>
+</div>
+</div>
+
+<div class="org-card team-card" markdown="1">
+<div class="logo-frame"><img src="images/shuli-football-badge.png" alt="Shuli College Football Team badge"></div>
+<div markdown="1">
+### Shuli College Football Team
+**Center-back; captain since March 2025**  
+March 2024 - present. [Team Website](https://shulisoccer.pages.dev/)
+
+<div class="honor-list">
+  <span>2024 College Cup Runner-up</span>
+  <span>2025 College Cup Third Place</span>
+  <span>2026 College Cup Runner-up</span>
+</div>
+</div>
+</div>
+
+<div class="org-card team-card" markdown="1">
+<div class="logo-frame"><img src="images/shuli-football-badge.png" alt="Shuli College Freshman Team badge"></div>
+<div markdown="1">
+### Shuli College Freshman Team
+September 2023 - December 2023.
+</div>
+</div>
+</div>
+
+<span class='anchor' id='awards'></span>
+
+# Awards
+
+<div class="section-card award-list" markdown="1">
+<div class="award-item" markdown="1">
+<span class="award-year">2025</span>
+<div markdown="1">
+### SUSTech Outstanding Student Scholarship, First Prize
+Southern University of Science and Technology
+</div>
+</div>
+
+<div class="award-item" markdown="1">
+<span class="award-year">2025</span>
+<div markdown="1">
+### Sports Star of Shuli College
+Shuli College, SUSTech
+</div>
+</div>
+
+<div class="award-item" markdown="1">
+<span class="award-year">2024</span>
+<div markdown="1">
+### SUSTech Outstanding Student Scholarship, First Prize
+Southern University of Science and Technology
+</div>
+</div>
+
+<div class="award-item" markdown="1">
+<span class="award-year">2024</span>
+<div markdown="1">
+### Sports Star of Shuli College
+Shuli College, SUSTech
+</div>
+</div>
+
+<div class="award-item" markdown="1">
+<span class="award-year">2024</span>
+<div markdown="1">
+### China Undergraduate Mathematical Contest in Modeling, Guangdong Provincial Third Prize
+CUMCM Guangdong Division
+</div>
+</div>
+
+<div class="award-item" markdown="1">
+<span class="award-year">2023</span>
+<div markdown="1">
+### SUSTech Freshman Scholarship
+Southern University of Science and Technology
+</div>
+</div>
+</div>
