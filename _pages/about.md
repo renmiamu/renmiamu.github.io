@@ -12,13 +12,13 @@ redirect_from:
 
 # About Me
 
-I am an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00 and a rank of 11/152. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025 and received an A- grade.
+I am an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025.
 
 I am currently a research intern at [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/), under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
 
 My research focuses on large language models (LLMs), with a particular interest in large reasoning models (LRMs) and LLM agents. I also hope to explore world models and embodied AI in the future.
 
-I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI.
+I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me at [hlshen19@gmail.com](mailto:hlshen19@gmail.com).
 
 <div class="overview-card" markdown="1">
 <div markdown="1">
@@ -31,7 +31,7 @@ I am actively looking for internship opportunities in both industry and academia
 <div markdown="1">
 ### Football Player
 - Captain of [Shuli College Football Team](https://shulisoccer.pages.dev/)
-- Center-back and right-back
+- Center-back and right-back (though I have always seen myself as a creative player)
 - Member of the SUSTech University Football Team
 </div>
 </div>
@@ -60,7 +60,7 @@ Yan Hu, Mingdao Gong, Zhongxi Qiu, Jiabao Liu, **Hongli Shen**, Mingzhen Yuan, X
 <div markdown="1">
 ### Southern University of Science and Technology
 **B.Eng. student**, 2023 - present  
-GPA: 3.89/4.00; Rank: 11/152.
+GPA: 3.89/4.00; Rank: 12/152.
 </div>
 </div>
 
@@ -150,7 +150,7 @@ September 2023 - December 2023.
 
 <div class="section-card award-list" markdown="1">
 <div class="award-item" markdown="1">
-<span class="award-year">2025</span>
+<span class="award-years"><span>2024</span><span>2025</span></span>
 <div markdown="1">
 ### SUSTech Outstanding Student Scholarship, First Prize
 Southern University of Science and Technology
@@ -158,7 +158,7 @@ Southern University of Science and Technology
 </div>
 
 <div class="award-item" markdown="1">
-<span class="award-year">2025</span>
+<span class="award-years"><span>2024</span><span>2025</span></span>
 <div markdown="1">
 ### Sports Star of Shuli College
 Shuli College, SUSTech
@@ -166,23 +166,7 @@ Shuli College, SUSTech
 </div>
 
 <div class="award-item" markdown="1">
-<span class="award-year">2024</span>
-<div markdown="1">
-### SUSTech Outstanding Student Scholarship, First Prize
-Southern University of Science and Technology
-</div>
-</div>
-
-<div class="award-item" markdown="1">
-<span class="award-year">2024</span>
-<div markdown="1">
-### Sports Star of Shuli College
-Shuli College, SUSTech
-</div>
-</div>
-
-<div class="award-item" markdown="1">
-<span class="award-year">2024</span>
+<span class="award-years"><span>2024</span></span>
 <div markdown="1">
 ### China Undergraduate Mathematical Contest in Modeling, Guangdong Provincial Third Prize
 CUMCM Guangdong Division
@@ -190,7 +174,7 @@ CUMCM Guangdong Division
 </div>
 
 <div class="award-item" markdown="1">
-<span class="award-year">2023</span>
+<span class="award-years"><span>2023</span></span>
 <div markdown="1">
 ### SUSTech Freshman Scholarship
 Southern University of Science and Technology
