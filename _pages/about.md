@@ -80,20 +80,20 @@ Grade: A-.
 
 <div class="section-card timeline-list" markdown="1">
 <div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/ruc-logo.webp" alt="Renmin University of China logo"></div>
+<div markdown="1">
+### Renmin University of China
+**Research Intern**, June 2026 - present  
+Advisor: [Shaolei Zhang](https://zhangshaolei1998.github.io/). Research direction: LLM agents and environment scaling.
+</div>
+</div>
+
+<div class="org-card" markdown="1">
 <div class="logo-frame"><img src="images/kaust-logo.png" alt="KAUST logo"></div>
 <div markdown="1">
 ### KAUST PRADA Lab
 **Research Intern**, January 2026 - present  
 Advisor: [Prof. Di Wang](https://shao3wangdi.github.io/). Research direction: LLM safety and large reasoning models.
-</div>
-</div>
-
-<div class="org-card" markdown="1">
-<div class="logo-frame"><img src="徽章/Renmin_University_of_China_logo.svg.webp" alt="Renmin University of China logo"></div>
-<div markdown="1">
-### Renmin University of China
-**Research Intern**  
-Advisor: [Shaolei Zhang](https://zhangshaolei1998.github.io/). Research direction: LLM agents and environment scaling.
 </div>
 </div>
 

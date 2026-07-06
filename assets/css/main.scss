@@ -418,7 +418,11 @@ h1:before, .anchor:before {
 }
 
 .logo-frame img[src$="shuli-football-badge.png"] {
-    transform: scale(.72);
+    transform: scale(.70);
+}
+
+.logo-frame img[src$="ruc-logo.webp"] {
+    transform: scale(.70);
 }
 
 .honor-list {
@@ -472,5 +476,9 @@ h1:before, .anchor:before {
 
     .logo-frame img[src$="shuli-football-badge.png"] {
         transform: scale(.68);
+    }
+
+    .logo-frame img[src$="ruc-logo.webp"] {
+        transform: scale(.74);
     }
 }
