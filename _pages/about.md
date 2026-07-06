@@ -12,7 +12,7 @@ redirect_from:
 
 # About Me
 
-I am an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025.
+I am Hongli Shen (沈泓立), an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025.
 
 I am currently a research intern at [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/), under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
 
@@ -85,6 +85,15 @@ Grade: A-.
 ### KAUST PRADA Lab
 **Research Intern**, January 2026 - present  
 Advisor: [Prof. Di Wang](https://shao3wangdi.github.io/). Research direction: LLM safety and large reasoning models.
+</div>
+</div>
+
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="徽章/Renmin_University_of_China_logo.svg.webp" alt="Renmin University of China logo"></div>
+<div markdown="1">
+### Renmin University of China
+**Research Intern**  
+Advisor: [Shaolei Zhang](https://zhangshaolei1998.github.io/). Research direction: LLM agents and environment scaling.
 </div>
 </div>
 
