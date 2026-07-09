@@ -18,7 +18,7 @@ I am currently a research intern at [King Abdullah University of Science and Tec
 
 My research focuses on large language models (LLMs), with a particular interest in large reasoning models (LRMs) and LLM agents. I also hope to explore world models and embodied AI in the future.
 
-I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me at [hlshen19@gmail.com](mailto:hlshen19@gmail.com).
+I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me via [Email](mailto:hlshen19@gmail.com) or [WeChat](/wechat.jpg).
 
 <div class="overview-card" markdown="1">
 <div markdown="1">
