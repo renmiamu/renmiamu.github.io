@@ -21,14 +21,14 @@ My research focuses on large language models (LLMs), with a particular interest 
 I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me via [Email](mailto:hlshen19@gmail.com) or [WeChat](/wechat.jpg).
 
 <div class="overview-card" markdown="1">
-<div markdown="1">
+<div class="overview-item overview-item--research" markdown="1">
 ### AI Researcher
 - Large language models, LRMs, and LLM agents
 - Model training, alignment, and evaluation
 - Future interests in world models and embodied AI
 </div>
 
-<div markdown="1">
+<div class="overview-item overview-item--football" markdown="1">
 ### Football Player
 - Captain of [Shuli College Football Team](https://shulisoccer.pages.dev/)
 - Center-back and right-back (though I have always seen myself as a creative player)
@@ -47,7 +47,9 @@ I am actively looking for internship opportunities in both industry and academia
 
 Yan Hu, Mingdao Gong, Zhongxi Qiu, Jiabao Liu, **Hongli Shen**, Mingzhen Yuan, Xiaoqing Zhang, Heng Li, Hai Lu, Jiang Liu.
 
-[[arXiv]](https://arxiv.org/abs/2501.02800)
+<div class="pub-links" markdown="1">
+[arXiv](https://arxiv.org/abs/2501.02800)
+</div>
 </div>
 
 <span class='anchor' id='education'></span>
