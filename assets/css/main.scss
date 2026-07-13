@@ -269,12 +269,20 @@ h1:before, .anchor:before {
         line-height: 1.2;
 
         &:before {
-            content: "";
-            width: .62rem;
-            height: .62rem;
-            border-radius: 3px;
-            background: var(--site-accent-green);
-            box-shadow: 0 0 0 4px var(--site-cool-chip-bg);
+            content: "\f544";
+            display: inline-flex;
+            flex: 0 0 auto;
+            width: 1.52rem;
+            height: 1.52rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            color: var(--site-overview-icon-color);
+            background: var(--site-overview-icon-bg);
+            font-family: "Font Awesome 5 Free";
+            font-size: .76rem;
+            font-weight: 900;
+            line-height: 1;
         }
     }
 
@@ -314,9 +322,14 @@ h1:before, .anchor:before {
 
 .overview-item--football {
     &:before,
-    h3:before,
     li:before {
         background: var(--site-accent-warm);
+    }
+
+    h3:before {
+        content: "\f1e3";
+        color: var(--site-overview-football-icon-color);
+        background: var(--site-overview-football-icon-bg);
     }
 }
 
@@ -683,6 +696,18 @@ h1:before, .anchor:before {
     --site-accent-green: #2f7d66;
     --site-accent-warm: #b66a35;
     --site-accent-slate: #66839d;
+    --site-emphasis-fallback: #254f83;
+    --site-emphasis-gradient: linear-gradient(90deg, #224b8d 0%, #2f7d66 72%, #b66a35 100%);
+    --site-emphasis-cool-fallback: #247261;
+    --site-emphasis-cool-gradient: linear-gradient(90deg, #1f6f63 0%, #2d5f99 100%);
+    --site-emphasis-warm-fallback: #a45b27;
+    --site-emphasis-warm-gradient: linear-gradient(90deg, #b66a35 0%, #2d5f99 100%);
+    --site-school-mark-color: #265b91;
+    --site-school-mark-bg: #e7f0fb;
+    --site-overview-icon-color: #247261;
+    --site-overview-icon-bg: #e8f5f1;
+    --site-overview-football-icon-color: #9b5524;
+    --site-overview-football-icon-bg: #fff0df;
     --site-section-gradient: linear-gradient(90deg, var(--site-accent-blue), var(--site-accent-green) 58%, var(--site-accent-warm));
     --site-blue-chip-text: #19436d;
     --site-blue-chip-bg: #e7f0fb;
@@ -733,6 +758,18 @@ html[data-theme="dark"] {
     --site-accent-green: #80cfb5;
     --site-accent-warm: #e5a36c;
     --site-accent-slate: #88a5bd;
+    --site-emphasis-fallback: #abcfff;
+    --site-emphasis-gradient: linear-gradient(90deg, #abcfff 0%, #a8e4d4 68%, #ffc38c 100%);
+    --site-emphasis-cool-fallback: #a8e4d4;
+    --site-emphasis-cool-gradient: linear-gradient(90deg, #a8e4d4 0%, #abcfff 100%);
+    --site-emphasis-warm-fallback: #ffc38c;
+    --site-emphasis-warm-gradient: linear-gradient(90deg, #ffc38c 0%, #abcfff 100%);
+    --site-school-mark-color: #c7ddff;
+    --site-school-mark-bg: rgba(69, 118, 177, .24);
+    --site-overview-icon-color: #bfe6dc;
+    --site-overview-icon-bg: rgba(59, 126, 99, .25);
+    --site-overview-football-icon-color: #ffd4ad;
+    --site-overview-football-icon-bg: rgba(177, 102, 40, .23);
     --site-section-gradient: linear-gradient(90deg, var(--site-accent-blue), var(--site-accent-green) 58%, var(--site-accent-warm));
     --site-blue-chip-text: #bed9ff;
     --site-blue-chip-bg: rgba(69, 118, 177, .22);
@@ -765,6 +802,48 @@ a {
     &:hover {
         color: var(--site-link-hover);
     }
+}
+
+.school-mark:before {
+    content: "\f015";
+    display: inline-flex;
+    width: 1.14rem;
+    height: 1.14rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: .22rem;
+    border-radius: 5px;
+    color: var(--site-school-mark-color);
+    background: var(--site-school-mark-bg);
+    font-family: "Font Awesome 5 Free";
+    font-size: .6rem;
+    font-weight: 900;
+    line-height: 1;
+    vertical-align: .08em;
+}
+
+.school-mark a {
+    font-weight: 700;
+}
+
+.page__content strong {
+    color: var(--site-emphasis-fallback);
+    background: var(--site-emphasis-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+}
+
+.page__content > p:first-of-type strong,
+.publication-card strong {
+    color: var(--site-emphasis-cool-fallback);
+    background-image: var(--site-emphasis-cool-gradient);
+}
+
+.team-grid strong {
+    color: var(--site-emphasis-warm-fallback);
+    background-image: var(--site-emphasis-warm-gradient);
 }
 
 hr,

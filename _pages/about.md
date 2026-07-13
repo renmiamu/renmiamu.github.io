@@ -12,13 +12,13 @@ redirect_from:
 
 # About Me
 
-I am Hongli Shen (沈泓立), an undergraduate student at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/), with a GPA of 3.89/4.00. I also attended the [NUS School of Computing](https://www.comp.nus.edu.sg/) Summer Workshop in 2025.
+I am **Hongli Shen (沈泓立)**, an undergraduate student at <span class="school-mark"><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology (SUSTech)</a></span>, with a GPA of 3.89/4.00. I also attended the <span class="school-mark"><a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a></span> Summer Workshop in 2025.
 
-I am currently a research intern at [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/), under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
+I am currently a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
 
-My research focuses on large language models (LLMs), with a particular interest in large reasoning models (LRMs) and LLM agents. I also hope to explore world models and embodied AI in the future.
+My research focuses on **large language models (LLMs)**, with a particular interest in large reasoning models (LRMs) and **LLM agents**. I also hope to explore world models and embodied AI in the future.
 
-I am actively looking for internship opportunities in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me via [Email](mailto:hlshen19@gmail.com) or [WeChat](/wechat.jpg).
+I am **actively looking for internship opportunities** in both industry and academia in areas related to large language models, including model training, alignment, evaluation, and agentic AI. Please feel free to reach me via [Email](mailto:hlshen19@gmail.com) or [WeChat](/wechat.jpg).
 
 <div class="overview-card" markdown="1">
 <div class="overview-item overview-item--research" markdown="1">
