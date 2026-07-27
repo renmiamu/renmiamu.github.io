@@ -569,6 +569,14 @@ h1:before, .anchor:before {
     border-left-color: var(--site-accent-green);
 }
 
+.football-stat--appearances {
+    color: var(--site-cool-chip-text);
+}
+
+.football-stat--goals {
+    color: var(--site-warm-chip-text);
+}
+
 .logo-frame {
     display: flex;
     width: 98px;

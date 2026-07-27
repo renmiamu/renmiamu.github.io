@@ -120,7 +120,7 @@ Advisor: [Prof. Jiang Liu](https://www.sustech.edu.cn/en/faculties/liujiang.html
 ### SUSTech University Football Team
 **Right-back and center-back**  
 September 2024 - present.
-11 appearances, 2 goals.
+<span class="football-stat--appearances">11 appearances</span>, <span class="football-stat--goals">2 goals</span>.
 
 <div class="honor-list">
   <span>2024 Shenzhen City Tournament Third Place</span>
@@ -138,7 +138,7 @@ September 2024 - present.
 ### Shuli College Football Team
 **Center-back; captain since March 2025**  
 March 2024 - present. [Team Website](https://shulisoccer.pages.dev/)
-12 appearances, 3 goals.
+<span class="football-stat--appearances">12 appearances</span>, <span class="football-stat--goals">3 goals</span>.
 
 <div class="honor-list">
   <span>2024 College Cup Runner-up</span>
@@ -153,7 +153,7 @@ March 2024 - present. [Team Website](https://shulisoccer.pages.dev/)
 <div markdown="1">
 ### Shuli College Freshman Team
 September 2023 - December 2023.
-2 appearances, no goals.
+<span class="football-stat--appearances">2 appearances</span>, <span class="football-stat--goals">no goals</span>.
 </div>
 </div>
 </div>
