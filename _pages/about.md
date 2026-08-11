@@ -40,7 +40,30 @@ I am **actively looking for internship opportunities** in both industry and acad
 
 # Publications
 
-<div class="publication-card" markdown="1">
+<div class="publication-card publication-card--with-image" markdown="1">
+<div class="publication-card__image">
+<a href="https://arxiv.org/abs/2608.09542"><img src="images/advsafe-pipeline.png" alt="AdvSafe dual-adversarial safety alignment pipeline"></a>
+</div>
+<div class="publication-card__content" markdown="1">
+<div class="pub-venue">Preprint 2026</div>
+
+### [Dual-Adversarial Safety Alignment: Cultivating Intrinsic Threat Comprehension in LRMs](https://arxiv.org/abs/2608.09542)
+
+**Hongli Shen**, Shaopeng Fu, Qinbo Zhang, Jian Li, Di Wang.
+
+<div class="pub-links" markdown="1">
+[arXiv](https://arxiv.org/abs/2608.09542)
+
+[Code](https://github.com/renmiamu/AdvSafe)
+</div>
+</div>
+</div>
+
+<div class="publication-card publication-card--with-image" markdown="1">
+<div class="publication-card__image publication-card__image--dark">
+<a href="https://arxiv.org/abs/2501.02800"><img src="images/coph100-samples.jpg" alt="Fundus images from a COph100 patient across multiple examinations"></a>
+</div>
+<div class="publication-card__content" markdown="1">
 <div class="pub-venue">Scientific Data 2025</div>
 
 ### [COph100: A comprehensive fundus image registration dataset from infants constituting the "RIDIRP" database](https://arxiv.org/abs/2501.02800)
@@ -49,6 +72,7 @@ Yan Hu, Mingdao Gong, Zhongxi Qiu, Jiabao Liu, **Hongli Shen**, Mingzhen Yuan, X
 
 <div class="pub-links" markdown="1">
 [arXiv](https://arxiv.org/abs/2501.02800)
+</div>
 </div>
 </div>
 
