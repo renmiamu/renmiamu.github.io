@@ -14,7 +14,7 @@ redirect_from:
 
 I am **Hongli Shen (沈泓立)**, an undergraduate student at <span class="school-mark"><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology (SUSTech)</a></span>, with a GPA of 3.89/4.00. I also attended the <span class="school-mark"><a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a></span> Summer Workshop in 2025.
 
-I am currently a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
+I am currently an Algorithm Intern in the Foundation Model Group at <span class="school-mark"><a href="https://knowinai.com/">KNOWIN AI</a></span>, working closely with [Dr. Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ). Previously, I was a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, where I worked under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/).
 
 My research focuses on **large language models (LLMs)**, with a particular interest in large reasoning models (LRMs) and **LLM agents**. I also hope to explore world models and embodied AI in the future.
 
@@ -100,6 +100,21 @@ Grade: A-.
 </div>
 </div>
 
+<span class='anchor' id='internship'></span>
+
+# Internship
+
+<div class="section-card timeline-list" markdown="1">
+<div class="org-card" markdown="1">
+<div class="logo-frame"><img src="images/knowin-logo.svg" alt="KNOWIN AI logo"></div>
+<div markdown="1">
+### [KNOWIN AI](https://knowinai.com/)
+**Algorithm Intern**, October 2026 - present  
+Foundation Model Group. Mentor: [Dr. Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ).
+</div>
+</div>
+</div>
+
 <span class='anchor' id='research'></span>
 
 # Research Experience
@@ -109,7 +124,7 @@ Grade: A-.
 <div class="logo-frame"><img src="images/ruc-logo.webp" alt="Renmin University of China logo"></div>
 <div markdown="1">
 ### Renmin University of China
-**Research Intern**, June 2026 - present  
+**Research Intern**, June 2026 - September 2026  
 Advisor: [Shaolei Zhang](https://zhangshaolei1998.github.io/). Research direction: LLM agents and environment scaling.
 </div>
 </div>
@@ -118,7 +133,7 @@ Advisor: [Shaolei Zhang](https://zhangshaolei1998.github.io/). Research directio
 <div class="logo-frame"><img src="images/kaust-logo.png" alt="KAUST logo"></div>
 <div markdown="1">
 ### KAUST PRADA Lab
-**Research Intern**, January 2026 - present  
+**Research Intern**, January 2026 - September 2026  
 Advisor: [Prof. Di Wang](https://shao3wangdi.github.io/). Research direction: LLM safety and large reasoning models.
 </div>
 </div>
