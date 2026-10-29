@@ -863,7 +863,8 @@ a {
     }
 }
 
-.school-mark:before {
+.school-mark:before,
+.company-mark:before {
     content: "\f015";
     display: inline-flex;
     width: 1.14rem;
@@ -881,7 +882,14 @@ a {
     vertical-align: .08em;
 }
 
-.school-mark a {
+.company-mark:before {
+    content: "\f0b1";
+    color: var(--site-overview-icon-color);
+    background: var(--site-overview-icon-bg);
+}
+
+.school-mark a,
+.company-mark a {
     font-weight: 700;
 }
 
