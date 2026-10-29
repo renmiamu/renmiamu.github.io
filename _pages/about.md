@@ -191,8 +191,12 @@ March 2024 - present. [Team Website](https://shulisoccer.pages.dev/)
 <div class="logo-frame"><img src="images/shuli-football-badge.png" alt="Shuli College Freshman Team badge"></div>
 <div markdown="1">
 ### Shuli College Freshman Team
-September 2023 - December 2023.
-<span class="football-stat--appearances">2 appearances</span>, <span class="football-stat--goals">no goals</span>.
+September 2023 - December 2023: <span class="football-stat--appearances">2 appearances</span>, <span class="football-stat--goals">0 goals</span>.<br>
+October 2026 (**Captain**): <span class="football-stat--appearances">3 appearances</span>, <span class="football-stat--goals">1 goal</span>.
+
+<div class="honor-list">
+  <span>2026 Freshman Cup Runner-up</span>
+</div>
 </div>
 </div>
 </div>
