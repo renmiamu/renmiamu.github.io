@@ -333,6 +333,31 @@ h1:before, .anchor:before {
     }
 }
 
+.football-club {
+    display: inline-flex;
+    align-items: center;
+    gap: .3em;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    img {
+        flex: 0 0 auto;
+        width: 1.15em;
+        height: 1.15em;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    // Match the visible crest diameter to Bayern's, accounting for image padding.
+    img[src$="shuli-football-badge.png"] {
+        transform: scale(.924);
+    }
+
+    img[src$="sustech-football-badge.png"] {
+        transform: translate(1.86%, 1.86%) scale(1.7);
+    }
+}
+
 .publication-card {
     position: relative;
     overflow: hidden;

@@ -24,13 +24,15 @@ My research interests include **large language models (LLMs)**, large reasoning 
 - Large language models, LRMs, and LLM agents
 - Model training, alignment, and evaluation
 - Embodied spatial intelligence, multimodal robot data, and world models
+- Seeking research internships in industry and academia
 </div>
 
 <div class="overview-item overview-item--football" markdown="1">
 ### Football Player
-- Captain of [Shuli College Football Team](https://shulisoccer.pages.dev/)
-- Member of the SUSTech University Football Team
+- Captain of <span class="football-club"><img src="{{ '/images/shuli-football-badge.png' | relative_url }}" alt="" width="24" height="24"><a href="https://shulisoccer.pages.dev/">Shuli College Football Team</a></span>
+- Member of the <span class="football-club"><img src="{{ '/images/sustech-football-badge.png' | relative_url }}" alt="" width="24" height="24">SUSTech University Football Team</span>
 - Center-back and right-back (though I have always seen myself as a creative player)
+- <span class="football-club"><img src="{{ '/images/bayern-munich-badge.png' | relative_url }}" alt="" width="24" height="24">Bayern Munich</span> / <span class="football-club"><img src="{{ '/images/manchester-united-badge.png' | relative_url }}" alt="" width="24" height="24">Manchester United</span> fan
 </div>
 </div>
 
