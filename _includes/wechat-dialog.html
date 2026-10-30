@@ -1,0 +1,11 @@
+{% if site.author.wechat %}
+<dialog class="wechat-dialog" id="wechat-dialog" aria-labelledby="wechat-dialog-title" aria-describedby="wechat-dialog-description">
+  <div class="wechat-dialog__content">
+    <button class="wechat-dialog__close" type="button" aria-label="Close WeChat QR code" autofocus><i class="fas fa-times" aria-hidden="true"></i></button>
+    <span class="wechat-dialog__icon" aria-hidden="true"><i class="fab fa-weixin"></i></span>
+    <h2 id="wechat-dialog-title">Connect on WeChat</h2>
+    <p id="wechat-dialog-description">Scan the QR code to connect with Hongli Shen.</p>
+    <img class="wechat-dialog__qr" src="{{ site.author.wechat | relative_url }}" alt="Hongli Shen's WeChat QR code" loading="lazy">
+  </div>
+</dialog>
+{% endif %}
