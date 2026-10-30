@@ -207,6 +207,14 @@ October 2026 (**Captain**): <span class="football-stat--appearances">3 appearanc
 
 <div class="section-card award-list" markdown="1">
 <div class="award-item" markdown="1">
+<span class="award-years"><span>2026</span></span>
+<div markdown="1">
+### SUSTech Outstanding Student Scholarship, Second Prize
+Southern University of Science and Technology
+</div>
+</div>
+
+<div class="award-item" markdown="1">
 <span class="award-years"><span>2024</span><span>2025</span></span>
 <div markdown="1">
 ### SUSTech Outstanding Student Scholarship, First Prize
