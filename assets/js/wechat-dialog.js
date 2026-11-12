@@ -7,6 +7,12 @@ document.querySelectorAll('.wechat-dialog').forEach(function (dialog) {
 
   // Capture the click before the site's general image lightbox handles it.
   document.addEventListener('click', function (event) {
+    // Keep profile-card downloads in the browser's native download flow.
+    if (dialog.contains(event.target) && event.target.closest('a[download]')) {
+      event.stopPropagation();
+      return;
+    }
+
     var trigger = event.target.closest('a[data-wechat-popup], a[data-xiaohongshu-popup]');
 
     if (!trigger || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
@@ -29,13 +35,6 @@ document.querySelectorAll('.wechat-dialog').forEach(function (dialog) {
 
   dialog.querySelector('.wechat-dialog__close').addEventListener('click', function () {
     dialog.close();
-  });
-
-  dialog.addEventListener('keydown', function (event) {
-    if (event.key === 'Tab') {
-      event.preventDefault();
-      dialog.querySelector('.wechat-dialog__close').focus();
-    }
   });
 
   dialog.addEventListener('click', function (event) {
