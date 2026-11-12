@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hongli Shen"
-  avatar           : "images/avatar-head.jpg"
+  avatar           : "images/avatar2.png"
   bio              : "SUSTech undergraduate · KNOWIN AI intern"
   location         : "Shenzhen, China"
   employer         :
@@ -81,6 +81,7 @@ exclude:
   - Capfile
   - Gemfile
   - "头像.jpg"
+  - "头像2.png"
   - "徽章"
   - Gruntfile.js
   - LICENSE
