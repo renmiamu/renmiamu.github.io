@@ -14,7 +14,7 @@ redirect_from:
 
 I am <strong class="text-accent">Hongli Shen (沈泓立)</strong>, an undergraduate student majoring in **Computer Science** at <span class="school-mark"><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology (SUSTech)</a></span>, with a GPA of 3.89/4.00. I also attended the <span class="school-mark"><a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a></span> Summer Workshop in 2025.
 
-I am currently an Algorithm Intern in the Foundation Model Group at <span class="company-mark"><a href="https://knowinai.com/">KNOWIN AI</a></span>, working closely with [Dr. Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ) and [Peiran Dong](https://scholar.google.com/citations?user=jctguNoAAAAJ&hl=zh-CN) on embodied spatial intelligence and multimodal robot-data pipelines. Previously, I was a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, where I worked under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/) and was mentored by [Shaopeng Fu](https://shaopengfu.me/).
+I am currently an Algorithm Intern in the Foundation Model Group at <span class="company-mark"><a href="https://knowinai.com/">KNOWIN AI</a></span>, working closely with [Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ) and [Peiran Dong](https://scholar.google.com/citations?user=jctguNoAAAAJ&hl=zh-CN) on embodied spatial intelligence and multimodal robot-data pipelines. Previously, I was a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, where I worked under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/) and was mentored by [Shaopeng Fu](https://shaopengfu.me/).
 
 My research interests include **large language models (LLMs)**, large reasoning models (LRMs), **LLM agents**, and **embodied AI**. I am <strong class="text-accent">actively looking for internship opportunities</strong> in both industry and academia. Please feel free to reach me via [Email](mailto:hlshen19@gmail.com) or <a href="{{ site.author.wechat | relative_url }}" data-wechat-popup aria-haspopup="dialog" aria-controls="wechat-dialog">WeChat</a>.
 
@@ -124,7 +124,7 @@ Grade: A-.
 <span class="experience-date"><time datetime="2026-10">Oct. 2026</time> &ndash; Present</span>
 </div>
 
-Foundation Model Group. Mentors: [Dr. Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ) and [Peiran Dong](https://scholar.google.com/citations?user=jctguNoAAAAJ&hl=zh-CN).
+Foundation Model Group. Mentors: [Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ) and [Peiran Dong](https://scholar.google.com/citations?user=jctguNoAAAAJ&hl=zh-CN).
 
 Working on embodied spatial intelligence and multimodal robot-data pipelines.
 </div>
