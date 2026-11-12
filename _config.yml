@@ -60,6 +60,7 @@ author:
   youtube          :
   wikipedia        :
   bilibili         : "https://space.bilibili.com/564049858"
+  xiaohongshu      : "/images/xiaohongshu.jpg"
 
 
 # Reading Files
@@ -82,6 +83,7 @@ exclude:
   - Gemfile
   - "头像.jpg"
   - "头像2.png"
+  - "小红书.jpg"
   - "徽章"
   - Gruntfile.js
   - LICENSE

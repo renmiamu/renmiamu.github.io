@@ -1,5 +1,4 @@
-(function () {
-  var dialog = document.getElementById('wechat-dialog');
+document.querySelectorAll('.wechat-dialog').forEach(function (dialog) {
   var activeTrigger = null;
 
   if (!dialog || typeof dialog.showModal !== 'function') {
@@ -8,9 +7,13 @@
 
   // Capture the click before the site's general image lightbox handles it.
   document.addEventListener('click', function (event) {
-    var trigger = event.target.closest('a[data-wechat-popup]');
+    var trigger = event.target.closest('a[data-wechat-popup], a[data-xiaohongshu-popup]');
 
     if (!trigger || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    if (trigger.getAttribute('aria-controls') !== dialog.id) {
       return;
     }
 
@@ -50,4 +53,4 @@
       activeTrigger.focus({ preventScroll: true });
     }
   });
-})();
+});

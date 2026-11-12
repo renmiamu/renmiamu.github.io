@@ -1,0 +1,11 @@
+{% if site.author.xiaohongshu %}
+<dialog class="wechat-dialog" id="xiaohongshu-dialog" aria-labelledby="xiaohongshu-dialog-title" aria-describedby="xiaohongshu-dialog-description">
+  <div class="wechat-dialog__content">
+    <button class="wechat-dialog__close" type="button" aria-label="Close Xiaohongshu profile card" autofocus><i class="fas fa-times" aria-hidden="true"></i></button>
+    <span class="wechat-dialog__icon" aria-hidden="true"><i class="fas fa-book"></i></span>
+    <h2 id="xiaohongshu-dialog-title">Connect on Xiaohongshu</h2>
+    <p id="xiaohongshu-dialog-description">Scan the QR code to follow SHL.<br>小红书号：10597577561</p>
+    <img class="wechat-dialog__qr" src="{{ site.author.xiaohongshu | relative_url }}" alt="SHL's Xiaohongshu profile card and QR code" loading="lazy">
+  </div>
+</dialog>
+{% endif %}
