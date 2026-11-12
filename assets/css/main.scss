@@ -1127,7 +1127,8 @@ select {
 .sidebar .social-icons .fas,
 .sidebar .social-icons .fab,
 .sidebar .social-icons .far,
-.sidebar .social-icons .ai {
+.sidebar .social-icons .ai,
+.sidebar .social-icons .xiaohongshu-mark {
     display: inline-flex;
     flex: 0 0 auto;
     width: 1.36rem;
@@ -1170,7 +1171,8 @@ select {
 .author__urls_sm .fas,
 .author__urls_sm .fab,
 .author__urls_sm .far,
-.author__urls_sm .ai {
+.author__urls_sm .ai,
+.author__urls_sm .xiaohongshu-mark {
     color: currentColor;
 }
 
@@ -1412,8 +1414,6 @@ html.has-wechat-dialog {
     width: 1.36rem;
     height: 1.36rem;
     padding: 3px;
-    color: #fff;
-    background: #ff2442;
     border-radius: 6px;
 }
 
