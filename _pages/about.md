@@ -42,38 +42,71 @@ My research interests include **large language models (LLMs)**, large reasoning 
 
 <div class="publication-card publication-card--with-image" markdown="1">
 <div class="publication-card__image">
-<a href="https://arxiv.org/abs/2608.09542"><img src="images/advsafe-pipeline.png" alt="AdvSafe dual-adversarial safety alignment pipeline"></a>
+<a href="https://arxiv.org/abs/2611.30338"><img src="images/fopl-pipeline.png" width="1920" height="868" alt="FOPL preference-pair construction pipeline"></a>
 </div>
 <div class="publication-card__content" markdown="1">
-<div class="pub-venue">Preprint 2026</div>
+### [Learning Teacher Output Preferences from Final Responses for Reasoning Distillation](https://arxiv.org/abs/2611.30338)
 
+**Hongli Shen**, Shaopeng Fu, Qinbo Zhang, Jian Li, Di Wang.
+
+<div class="pub-links">
+  <a class="pub-link--paper" href="https://arxiv.org/abs/2611.30338" title="Paper on arXiv">
+    <span><span aria-hidden="true">📄</span> Paper</span>
+    <span class="pub-link__detail">Preprint 2026</span>
+  </a>
+  <a href="https://github.com/renmiamu/fopl">
+    <span><i class="fab fa-github" aria-hidden="true"></i> Code</span>
+    <span class="pub-link__detail">GitHub</span>
+  </a>
+  <a class="pub-link--data" href="https://huggingface.co/datasets/renmiamu/FOPL" title="Training data on Hugging Face">
+    <span><span aria-hidden="true">📚</span> Data</span>
+  </a>
+  <a class="pub-link--model" href="https://huggingface.co/renmiamu/FOPL-dpo" title="Model weights on Hugging Face">
+    <span><span aria-hidden="true">🤗</span> Model</span>
+    <span class="pub-link__detail">FOPL-DPO</span>
+  </a>
+</div>
+</div>
+</div>
+
+<div class="publication-card publication-card--with-image" markdown="1">
+<div class="publication-card__image">
+<a href="https://arxiv.org/abs/2608.09542"><img src="images/advsafe-pipeline.png" width="1000" height="1000" alt="AdvSafe dual-adversarial safety alignment pipeline"></a>
+</div>
+<div class="publication-card__content" markdown="1">
 ### [Dual-Adversarial Safety Alignment: Cultivating Intrinsic Threat Comprehension in LRMs](https://arxiv.org/abs/2608.09542)
 
 **Hongli Shen**<sup>*</sup>, Shaopeng Fu<sup>*</sup>, Qinbo Zhang, Jian Li, Di Wang.
 
 <small><sup>*</sup> Equal contribution.</small>
 
-<div class="pub-links" markdown="1">
-[arXiv](https://arxiv.org/abs/2608.09542)
-
-[Code](https://github.com/renmiamu/AdvSafe)
+<div class="pub-links">
+  <a class="pub-link--paper" href="https://arxiv.org/abs/2608.09542" title="Paper on arXiv">
+    <span><span aria-hidden="true">📄</span> Paper</span>
+    <span class="pub-link__detail">Preprint 2026</span>
+  </a>
+  <a href="https://github.com/renmiamu/AdvSafe">
+    <span><i class="fab fa-github" aria-hidden="true"></i> Code</span>
+    <span class="pub-link__detail">GitHub</span>
+  </a>
 </div>
 </div>
 </div>
 
 <div class="publication-card publication-card--with-image" markdown="1">
-<div class="publication-card__image publication-card__image--dark">
-<a href="https://arxiv.org/abs/2501.02800"><img src="images/coph100-samples.jpg" alt="Fundus images from a COph100 patient across multiple examinations"></a>
+<div class="publication-card__image">
+<a href="https://arxiv.org/abs/2501.02800"><img src="images/coph100-samples.jpg" width="1200" height="900" alt="Fundus images from a COph100 patient across multiple examinations"></a>
 </div>
 <div class="publication-card__content" markdown="1">
-<div class="pub-venue">Scientific Data 2025</div>
-
 ### [COph100: A comprehensive fundus image registration dataset from infants constituting the "RIDIRP" database](https://arxiv.org/abs/2501.02800)
 
 Yan Hu, Mingdao Gong, Zhongxi Qiu, Jiabao Liu, **Hongli Shen**, Mingzhen Yuan, Xiaoqing Zhang, Heng Li, Hai Lu, Jiang Liu.
 
-<div class="pub-links" markdown="1">
-[arXiv](https://arxiv.org/abs/2501.02800)
+<div class="pub-links">
+  <a class="pub-link--paper" href="https://arxiv.org/abs/2501.02800" title="Paper on arXiv">
+    <span><span aria-hidden="true">📄</span> Paper</span>
+    <span class="pub-link__detail">Scientific Data 2025</span>
+  </a>
 </div>
 </div>
 </div>
