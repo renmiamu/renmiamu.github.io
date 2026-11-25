@@ -42,6 +42,27 @@ My research interests include **large language models (LLMs)**, large reasoning 
 
 <div class="publication-card publication-card--with-image" markdown="1">
 <div class="publication-card__image">
+<a href="{{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }}"><img src="{{ '/images/vlm-grounding-overview.png' | relative_url }}" width="1536" height="1716" alt="Overview of decision binding and grounding maintenance in VLM-based manipulation"></a>
+</div>
+<div class="publication-card__content" markdown="1">
+### [From Visual Answers to Executable Actions: A Survey of VLM Grounding Interfaces]({{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }})
+
+**Hongli Shen**, Jianghan Wang, Binghui Xie, Tan Su, Haoxiang Yang, Ruxin Wang, Ximing Zheng, Qixiong Jiang, Ruize Gao, Tianyi Zhang, Zexi Li, Han Yang, Peiran Dong, Yangkai Wei, Kaiwen Zhou, Yinchuan Li.
+
+<div class="pub-links">
+  <a class="pub-link--paper" href="{{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }}" title="Read the full preprint PDF">
+    <span><span aria-hidden="true">📄</span> PDF</span>
+    <span class="pub-link__detail">Preprint 2026</span>
+  </a>
+  <a href="https://doi.org/10.5281/zenodo.24534276">
+    <span>Zenodo DOI</span>
+  </a>
+</div>
+</div>
+</div>
+
+<div class="publication-card publication-card--with-image" markdown="1">
+<div class="publication-card__image">
 <a href="https://arxiv.org/abs/2611.30338"><img src="images/fopl-pipeline.png" width="1920" height="868" alt="FOPL preference-pair construction pipeline"></a>
 </div>
 <div class="publication-card__content" markdown="1">
