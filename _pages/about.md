@@ -42,7 +42,7 @@ My research interests include **large language models (LLMs)**, large reasoning 
 
 <div class="publication-card publication-card--with-image" markdown="1">
 <div class="publication-card__image">
-<a href="{{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }}"><img src="{{ '/images/vlm-grounding-overview.png' | relative_url }}" width="1536" height="1716" alt="Overview of decision binding and grounding maintenance in VLM-based manipulation"></a>
+<a href="{{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }}"><img src="{{ '/images/vlm-grounding-cover.png' | relative_url }}" width="1100" height="1600" alt="First page of the VLM Grounding Interfaces survey"></a>
 </div>
 <div class="publication-card__content" markdown="1">
 ### [From Visual Answers to Executable Actions: A Survey of VLM Grounding Interfaces]({{ '/papers/vlm-grounding-interfaces.pdf' | relative_url }})
