@@ -10,9 +10,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About Me
+<h1 class="profile-name chinese-name" lang="zh-Hans">沈泓立</h1>
 
-I am <strong class="text-accent">Hongli Shen (沈泓立)</strong>, an undergraduate student majoring in **Computer Science** at <span class="school-mark"><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology (SUSTech)</a></span>, with a GPA of 3.89/4.00. I also attended the <span class="school-mark"><a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a></span> Summer Workshop in 2025.
+I am an undergraduate student majoring in **Computer Science** at <span class="school-mark"><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology (SUSTech)</a></span>, with a GPA of 3.89/4.00. I also attended the <span class="school-mark"><a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a></span> Summer Workshop in 2025.
 
 I am currently an Algorithm Intern in the Foundation Model Group at <span class="company-mark"><a href="https://knowinai.com/">KNOWIN AI</a></span>, working closely with [Binghui Xie](https://scholar.google.com/citations?hl=zh-CN&user=krUTLTkAAAAJ) and [Peiran Dong](https://scholar.google.com/citations?user=jctguNoAAAAJ&hl=zh-CN) on embodied spatial intelligence and multimodal robot-data pipelines. Previously, I was a research intern at <span class="school-mark"><a href="https://www.kaust.edu.sa/">King Abdullah University of Science and Technology (KAUST)</a></span>, where I worked under the supervision of [Prof. Di Wang](https://shao3wangdi.github.io/) and was mentored by [Shaopeng Fu](https://shaopengfu.me/).
 

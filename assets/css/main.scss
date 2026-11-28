@@ -825,7 +825,8 @@ h1:before, .anchor:before {
     --site-emphasis-fallback: #254f83;
     --site-emphasis-gradient: linear-gradient(90deg, #224b8d 0%, #2f7d66 72%, #b66a35 100%);
     --site-emphasis-cool-fallback: #247261;
-    --site-emphasis-cool-gradient: linear-gradient(90deg, #1f6f63 0%, #2d5f99 100%);
+    --site-pointer-glow: rgba(78, 152, 163, .19);
+    --site-pointer-pulse: rgba(78, 152, 163, .36);
     --site-emphasis-warm-fallback: #a45b27;
     --site-emphasis-warm-gradient: linear-gradient(90deg, #b66a35 0%, #2d5f99 100%);
     --site-school-mark-color: #265b91;
@@ -884,7 +885,8 @@ html[data-theme="dark"] {
     --site-emphasis-fallback: #abcfff;
     --site-emphasis-gradient: linear-gradient(90deg, #abcfff 0%, #a8e4d4 68%, #ffc38c 100%);
     --site-emphasis-cool-fallback: #a8e4d4;
-    --site-emphasis-cool-gradient: linear-gradient(90deg, #a8e4d4 0%, #abcfff 100%);
+    --site-pointer-glow: rgba(100, 197, 178, .24);
+    --site-pointer-pulse: rgba(100, 197, 178, .46);
     --site-emphasis-warm-fallback: #ffc38c;
     --site-emphasis-warm-gradient: linear-gradient(90deg, #ffc38c 0%, #abcfff 100%);
     --site-school-mark-color: #c7ddff;
@@ -912,8 +914,58 @@ html {
 }
 
 body {
+    isolation: isolate;
     color: var(--site-text);
     background: var(--site-bg);
+}
+
+.pointer-glow,
+.pointer-pulse {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.pointer-glow {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 28rem;
+    height: 28rem;
+    background: radial-gradient(circle, var(--site-pointer-glow), transparent 68%);
+    opacity: 0;
+    transition: opacity 220ms ease-out;
+}
+
+.pointer-glow.is-visible {
+    opacity: 1;
+}
+
+.pointer-pulse {
+    z-index: 1000;
+    width: 8rem;
+    height: 8rem;
+    background: radial-gradient(circle, var(--site-pointer-pulse), transparent 69%);
+    animation: pointer-pulse 460ms ease-out both;
+}
+
+@keyframes pointer-pulse {
+    from {
+        opacity: .92;
+        transform: translate(-50%, -50%) scale(.52);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.35);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pointer-glow,
+    .pointer-pulse {
+        visibility: hidden;
+    }
 }
 
 a {
@@ -959,6 +1011,32 @@ a {
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "Ma Shan Zheng";
+    src: url("../fonts/ma-shan-zheng-name.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.chinese-name {
+    font-family: "Ma Shan Zheng", "Kaiti SC", KaiTi, STKaiti, serif;
+    font-size: 1.12em;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.page__content h1.profile-name {
+    color: var(--site-emphasis-cool-fallback);
+    font-size: clamp(1.5rem, 3.6vw, 2rem);
+    line-height: 1.16;
+    letter-spacing: .035em;
+
+    &::before {
+        content: none;
+    }
+}
+
 .page__content .text-accent {
     color: var(--site-emphasis-fallback);
     background: var(--site-emphasis-gradient);
@@ -966,11 +1044,6 @@ a {
     -webkit-background-clip: text;
     font-weight: 800;
     -webkit-text-fill-color: transparent;
-}
-
-.page__content > p:first-of-type .text-accent {
-    color: var(--site-emphasis-cool-fallback);
-    background-image: var(--site-emphasis-cool-gradient);
 }
 
 hr,
